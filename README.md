@@ -34,3 +34,7 @@ https://github.com/dkhamsing/open-source-ios-apps#color
 #Code practice
 
 https://repl.it/~
+
+#Random number generator
+
+https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/random-vs-pseudorandom-number-generators
