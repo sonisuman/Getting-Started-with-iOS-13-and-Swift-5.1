@@ -22,3 +22,15 @@ https://appicon.co/#image-sets
 #Image creater 
 
 https://www.canva.com/photos/free/
+
+#open source swift project
+
+https://medium.mybridge.co/21-amazing-open-source-ios-apps-written-in-swift-5e835afee98e
+
+#open source project for different plateform
+
+https://github.com/dkhamsing/open-source-ios-apps#color
+
+#Code practice
+
+https://repl.it/~
