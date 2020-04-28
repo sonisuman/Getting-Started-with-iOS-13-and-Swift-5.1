@@ -14,3 +14,11 @@ https://colorhunt.co
 #The Ultimate Guide To iPhone Resolutions
 
 https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
+
+#App icon generator
+
+https://appicon.co/#image-sets
+
+#Image creater 
+
+https://www.canva.com/photos/free/
