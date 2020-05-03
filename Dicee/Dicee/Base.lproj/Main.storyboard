@@ -25,7 +25,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="243.33333333333334"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="8Qx-Vn-TE4">
-                                                <rect key="frame" x="137.66666666666666" y="33" width="100.00000000000006" height="100"/>
+                                                <rect key="frame" x="137.66666666666666" y="33" width="100" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="100" id="KUe-QU-9iQ"/>
                                                     <constraint firstAttribute="height" constant="100" id="cpl-Vf-phi"/>
@@ -42,13 +42,13 @@
                                         <rect key="frame" x="0.0" y="245.33333333333331" width="375" height="243.33333333333331"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleAspectFit" distribution="equalCentering" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="gml-vR-E7c">
-                                                <rect key="frame" x="72.666666666666686" y="71.666666666666686" width="230" height="100"/>
+                                                <rect key="frame" x="-27.666666666666657" y="21.666666666666686" width="430.33333333333326" height="200"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="1iU-2x-k15">
-                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="200.33333333333334" height="200"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="4RV-Di-tiv">
-                                                        <rect key="frame" x="130" y="0.0" width="100" height="100"/>
+                                                        <rect key="frame" x="230.33333333333331" y="0.0" width="200" height="200"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
