@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="landscape" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -11,31 +11,44 @@
         <scene sceneID="EHf-IW-A2E">
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                    <view key="view" contentMode="scaleAspectFill" insetsLayoutMarginsFromSafeArea="NO" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="AppBackground" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iwx-SJ-7Xb">
-                                <rect key="frame" x="-16" y="0.0" width="414" height="812"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="AppBackground" translatesAutoresizingMaskIntoConstraints="NO" id="nKk-1o-Ads">
+                                <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AppLogo" translatesAutoresizingMaskIntoConstraints="NO" id="ERf-2s-9fh">
-                                <rect key="frame" x="137" y="356" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppLogo" translatesAutoresizingMaskIntoConstraints="NO" id="ba4-zA-b7o">
+                                <rect key="frame" x="306" y="87.666666666666686" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Org-Uh-3QL"/>
+                                    <constraint firstAttribute="height" constant="200" id="tCL-Rr-poB"/>
+                                </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="let's play the dice game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vbO-fX-o0k">
+                                <rect key="frame" x="279.66666666666669" y="297.66666666666669" width="253.00000000000006" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Iwx-SJ-7Xb" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="eZT-Uf-Llf"/>
-                            <constraint firstItem="Iwx-SJ-7Xb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="-16" id="fCP-ee-rXg"/>
-                            <constraint firstItem="Iwx-SJ-7Xb" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="fdR-i3-clf"/>
-                            <constraint firstItem="Iwx-SJ-7Xb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="3.5" id="ial-Ce-cI3"/>
+                            <constraint firstItem="vbO-fX-o0k" firstAttribute="top" secondItem="ba4-zA-b7o" secondAttribute="bottom" constant="10" id="502-q9-bzp"/>
+                            <constraint firstItem="nKk-1o-Ads" firstAttribute="topMargin" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="8" id="B2M-VK-A7J"/>
+                            <constraint firstItem="nKk-1o-Ads" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Jpb-3f-TRI"/>
+                            <constraint firstItem="vbO-fX-o0k" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Kac-9Q-OWM"/>
+                            <constraint firstItem="ba4-zA-b7o" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="SkK-7s-Vkd"/>
+                            <constraint firstAttribute="bottom" secondItem="nKk-1o-Ads" secondAttribute="bottom" id="lou-XA-KZo"/>
+                            <constraint firstItem="nKk-1o-Ads" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="qaA-He-r3e"/>
+                            <constraint firstItem="ba4-zA-b7o" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="sv0-dT-djj"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="egk-I5-2Oe"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="374.6305418719212"/>
+            <point key="canvasLocation" x="50.399999999999999" y="373.15270935960592"/>
         </scene>
     </scenes>
     <resources>
