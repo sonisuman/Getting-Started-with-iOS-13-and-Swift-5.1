@@ -42,15 +42,15 @@ class ViewController: UIViewController {
     
     
     @IBAction func keyPressed(_ sender: UIButton) {
-      let   soundArr = ["A.wav","B.wav","C.wav","D.wav","E.wav","F.wav","G.wav"]
-        var soundIndex = 0
-        if sender.tag == 1 || sender.tag == soundArr.count {
-           soundIndex = sender.tag - 1
+      //Reduces the sender's (the button that got pressed) opacity to half.
+        sender.alpha = 0.5
+
+        //Code should execute after 0.2 second delay.
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            //Bring's sender's opacity back up to fully opaque.
+            sender.alpha = 1.0
         }
-        else {
-            soundIndex = sender.tag
-        }
-        playSound(soundArr[soundIndex].components(separatedBy: ".wav")[0])
+        playSound(sender.currentTitle)
     }
 }
 
