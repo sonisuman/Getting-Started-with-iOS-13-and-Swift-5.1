@@ -38,3 +38,15 @@ https://repl.it/~
 #Random number generator
 
 https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/random-vs-pseudorandom-number-generators
+
+#Screenshots Device Mockups Generator: Mockuphone.com
+
+https://mockuphone.com/#ios
+
+#App Icon Resizer: makeappicon.com
+
+https://makeappicon.com/
+
+#Mobile App Landing pages with appsite
+
+https://appsite.skygear.io/
