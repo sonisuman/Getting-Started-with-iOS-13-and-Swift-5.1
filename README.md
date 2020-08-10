@@ -50,3 +50,13 @@ https://makeappicon.com/
 #Mobile App Landing pages with appsite
 
 https://appsite.skygear.io/
+
+#Tools for designing with color
+
+https://www.colorzilla.com/
+
+https://www.materialpalette.com/
+
+https://flatuicolors.com/
+
+https://colorhunt.co/
