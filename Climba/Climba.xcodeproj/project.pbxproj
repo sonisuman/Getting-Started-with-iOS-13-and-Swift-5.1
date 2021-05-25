@@ -16,6 +16,9 @@
 		E49B5F0B265853CC00B34CFF /* ClimbaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49B5F0A265853CC00B34CFF /* ClimbaTests.swift */; };
 		E49B5F16265853CC00B34CFF /* ClimbaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49B5F15265853CC00B34CFF /* ClimbaUITests.swift */; };
 		E49B5F282658620500B34CFF /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49B5F272658620500B34CFF /* WeatherViewController.swift */; };
+		E49B5FE4265A49E200B34CFF /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49B5FE3265A49E200B34CFF /* WeatherManager.swift */; };
+		E49B5FE6265D969600B34CFF /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49B5FE5265D969600B34CFF /* WeatherData.swift */; };
+		E49B5FE8265DA27900B34CFF /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49B5FE7265DA27900B34CFF /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		E49B5F15265853CC00B34CFF /* ClimbaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbaUITests.swift; sourceTree = "<group>"; };
 		E49B5F17265853CC00B34CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E49B5F272658620500B34CFF /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		E49B5FE3265A49E200B34CFF /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		E49B5FE5265D969600B34CFF /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		E49B5FE7265DA27900B34CFF /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,9 @@
 		E49B5F252658540C00B34CFF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E49B5FE3265A49E200B34CFF /* WeatherManager.swift */,
+				E49B5FE5265D969600B34CFF /* WeatherData.swift */,
+				E49B5FE7265DA27900B34CFF /* WeatherModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -295,7 +304,10 @@
 			files = (
 				E49B5F282658620500B34CFF /* WeatherViewController.swift in Sources */,
 				E49B5EF1265853C700B34CFF /* AppDelegate.swift in Sources */,
+				E49B5FE4265A49E200B34CFF /* WeatherManager.swift in Sources */,
+				E49B5FE8265DA27900B34CFF /* WeatherModel.swift in Sources */,
 				E49B5EF3265853C700B34CFF /* SceneDelegate.swift in Sources */,
+				E49B5FE6265D969600B34CFF /* WeatherData.swift in Sources */,
 				E49B5EFB265853C700B34CFF /* Climba.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
