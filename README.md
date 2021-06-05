@@ -64,3 +64,24 @@ https://colorhunt.co/
 #SFImages provided by Apple 
 
 https://developer.apple.com/sf-symbols/
+
+#Realm Introduction
+
+https://www.mongodb.com/realm
+
+#Realm Apple documentation 
+
+https://docs.mongodb.com/realm-legacy/docs/swift/latest/
+
+#Realm NSPredicate Cheatsheet
+
+https://academy.realm.io/posts/nspredicate-cheatsheet/
+
+#NSPredicate: NSHipster
+
+https://nshipster.com/nspredicate/
+
+#SwipeCellKit: Documentation 
+
+https://github.com/SwipeCellKit/SwipeCellKit
+
